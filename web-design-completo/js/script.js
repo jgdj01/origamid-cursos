@@ -11,3 +11,7 @@ if(window.SimpleSlide){
         nav: true
     });
 }
+
+if(window.SimpleAnime){
+    new SimpleAnime();
+}
