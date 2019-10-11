@@ -42,7 +42,7 @@
 }
 
 .grid-4 {
-  width: 33.333%;
+  width: calc(33.333%-20px);
 }
 
 .grid-5 {
@@ -50,7 +50,7 @@
 }
 
 .grid-6 {
-  width: calc(50%-20px);
+  width: calc(50% - 20px);
 }
 
 .grid-7 {
