@@ -13,15 +13,26 @@
 	<style>
 		section {
 			display: flex;
-			justify-content: space-around;
-			align-items: end;
+			height: 1000px;
 		}
 
 		section>div {
 			background: tomato;
 			margin: 10px;
 			padding: 10px;
-			flex: 0;
+			flex: 1;
+		}
+
+		.item-1 {
+			align-self: flex-end;
+		}
+
+		.item-2 {
+			align-self: flex-start;
+		}
+
+		.item-3 {
+			align-self: center;
 		}
 	</style>
 
@@ -31,15 +42,21 @@
 	</main>
 
 	<section>
-		<div>
-			<h2>Botafogo</h2>
-			<p>As condições climáticas.</p>
-		</div>
 
-		<div>
-			<h2>Iguatemi</h2>
+		<div class="item-1">
+			<h2>Mineirão</h2>
+			<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o
+				cultivo. asdsdsadsadsad asd asd adasdsd</p>
+		</div>
+		<div class="item-2">
+			<h2>Mineirão</h2>
 			<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o
 				cultivo.</p>
+		</div>
+		<div class="item-3">
+			<h2>Mineirão</h2>
+			<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o
+				cultivo. asddasd asdasd asdasdad</p>
 		</div>
 	</section>
 
