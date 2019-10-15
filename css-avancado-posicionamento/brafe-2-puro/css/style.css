@@ -34,3 +34,27 @@ body {
   display: block;
   margin: 40px auto;
 }
+
+.header-menu {
+  border-top: 3px solid #d6d3c8;
+  border-bottom: 3px solid #d6d3c8;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px 0;
+}
+
+.header-menu li {
+  display: inline-block;
+  padding: 5px 10px 5px 0;
+  color: #252525;
+  font-size: 1.125em;
+}
+
+.header-menu li a::before {
+  content: "•";
+  padding-right: 10px;
+}
+
+.header-menu li:first-child a::before {
+  content: "";
+}
