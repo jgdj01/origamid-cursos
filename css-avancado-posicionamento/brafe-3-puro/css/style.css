@@ -66,6 +66,16 @@ a {
   padding-left: 0px;
 }
 
+@media (max-width: 739px) {
+  .header-logo {
+    float: none;
+  }
+  .header-menu ul {
+    float: none;
+    margin-top: 10px;
+  }
+}
+
 /* MAIN */
 
 .main-container {
@@ -126,6 +136,39 @@ a {
 
 .nav-hospedagens::before {
   background-position: 0 calc(-24px * 5);
+}
+
+@media (min-width: 740px) and (max-width: 980px) {
+  .side-nav {
+    width: 200px;
+  }
+}
+
+@media (max-width: 739px) {
+  .side-nav {
+    margin: 20px 0 0 20px;
+    background: none;
+    width: auto;
+  }
+  .side-nav li {
+    display: inline-block;
+  }
+  .side-nav li a::before {
+    display: block;
+    margin: 0px;
+    top: 0px;
+  }
+
+  .side-nav li a {
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    padding: 10px;
+    border: none;
+    color: #252525;
+    background: #252525;
+    border-radius: 4px;
+  }
 }
 
 /* Produtos */
